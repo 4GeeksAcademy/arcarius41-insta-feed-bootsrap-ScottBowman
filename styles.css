@@ -1,0 +1,18 @@
+.feed {
+
+}
+.navbar {
+    display: flex;
+}
+.mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-table-cells {
+    padding-right: 25px;
+}
+.mode_btn {
+    background-color: white;
+    border: none;
+}
