@@ -1,4 +1,4 @@
-.feed {
+/* .feed {
 
 }
 .navbar {
@@ -15,8 +15,11 @@
 .mode_btn {
     background-color: white;
     border: none;
-}
+} */
 /* .alternate-posts{
     display: flex;
-    vertical-align: auto;
+    flex: column;
+} */
+/* i.fa-solid.fa-camera{
+margin-top:5px;
 } */
