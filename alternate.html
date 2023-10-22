@@ -16,7 +16,16 @@
               <a class="navbar-brand"><i class="fa-brands fa-instagram">Instagram</i></a>
               <form class="d-flex" role="search">
                 <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#new-post-modal">Create a New Post</button>
-                <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-gear"></i></button>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-gear"></i>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
               </form>
             </div>
       </nav>
@@ -27,14 +36,14 @@
              <div class="modal-content">
                <div class="modal-header">
                 <h5 class="modal-title">Create a new post</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> X </button>
               </div>
       <div class="modal-body">
         <h6>Caption:</h6>
         <textarea class="form-control" aria-label="With textarea"></textarea>
         <div>
-        <i class="fa-solid fa-camera fa-lg"></i>
-        <i class="fa-solid fa-location-dot fa-lg"></i>
+        <i class="fa-solid fa-camera fa-lg btn btn-light mx-1 my-3"></i>
+        <i class="fa-solid fa-location-dot fa-lg btn btn-light mx-1 my-3"></i>
         </div>
       </div>
       <div class="modal-footer">
@@ -60,8 +69,8 @@
     </div>
     <img src="images/picture_10.jpg" width=300 height="300" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text"><strong>36525 likes</strong></p>
-      <p class="card-text">This is a exmaple of a very good photo you can post on instagram</p>
+      <p class="card-text"><strong>3525 likes</strong></p>
+      <p class="card-text">This is a example of a very good photo you can post on instagram</p>
     </div>
     </div>
         </div>
@@ -80,7 +89,7 @@
     <div class="row justify-content-md-center">
     <div class="card" style="width: 18rem height 18rem;">
       <div class="card-header">
-        <p>my doggie roofus</p>
+        <p>My dog "Chowder"</p>
       </div>
       <img src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg" width=" 300" height="300" class="card-img-top" alt="...">
       <div class="card-body">
