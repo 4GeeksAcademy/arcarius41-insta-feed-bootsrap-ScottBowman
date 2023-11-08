@@ -1,29 +1,9 @@
-/* .feed {
 
-}
-.navbar {
-    display: flex;
-}
-.mode {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.fa-table-cells {
-    padding-right: 25px;
-}
-.mode_btn {
-    background-color: white;
-    border: none;
-} */
-/* .alternate-posts{
-    display: flex;
-    flex: column;
-} */
-/* i.fa-solid.fa-camera{
-margin-top:5px;
-} */
 .mode_btn{
     border: none;
     background-color: white;
+}
+.grid-size {
+    width: 418px;
+    height: 393px;
 }
